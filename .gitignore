@@ -1,0 +1,41 @@
+# ===== Secrets: NEVER commit (contains a real API key) =====
+_sub2/.env
+.env
+*.env.local
+
+# ===== Python caches / build artifacts =====
+__pycache__/
+*.pyc
+*.pyo
+node_modules/
+
+# ===== Generated run/test data (several GB, regenerate-only) =====
+runlogs/
+runs/
+_smoke_v4/
+_smoke/
+_smoke_out/
+_test_*/
+_mdtest/
+_test_backend/
+_test_e2e/
+_test_e2e_sheet/
+agent-arc-based/
+_sub/
+
+# ===== Submission zips: keep only latest as a GitHub Release, not in source =====
+agent-submission-*.zip
+
+# ===== Private run logs / extracted task content (do NOT share) =====
+*_log.txt
+_gh_*.txt
+_sheet_*.txt
+_gh_now.txt
+_sheet_now.txt
+GitHub.docx
+sheet.docx
+
+# ===== Requirement/test harness (not part of the framework) =====
+arcbench-hackathon-requirements/
+scripts/
+arcbench-cli-main/

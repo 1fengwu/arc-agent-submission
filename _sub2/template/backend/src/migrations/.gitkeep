@@ -1,0 +1,3 @@
+# Requirement leaves drop their schema migrations here as <node_id>.sql
+# (CREATE TABLE IF NOT EXISTS ...). Auto-run by backend/src/database/init_db.js.
+# Do not edit init_db.js to add tables.
